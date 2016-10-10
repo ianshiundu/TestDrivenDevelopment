@@ -26,3 +26,6 @@ class FizzBuzzClassTest(unittest.TestCase):
         
     def test_indivisible_2(self):
         self.assertEqual(fizz_buzz(8), 8, msg='should return the number if its in divisible by neither 3 or 5')
+
+        if __name__ == '__main__':
+            unittest.main()

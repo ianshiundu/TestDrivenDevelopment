@@ -1,6 +1,6 @@
 import unittest
 from fizztest import *
-class FizzBuzzClassTest(TestCase):
+class FizzBuzzClassTest(unittest.TestCase):
     """docstring for FizzBuzz"""
 
     def test_fizz_1(self):
